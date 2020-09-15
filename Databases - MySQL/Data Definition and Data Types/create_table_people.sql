@@ -4,7 +4,7 @@ CREATE TABLE `people` (
     `picture` BLOB,
     `height` DOUBLE(10,2),
     `weight` DOUBLE(10,2),
-    `gender` CHAR NOT NULL,
+    `gender` CHAR(5) NOT NULL,
     `birthdate` DATE NOT NULL,
     `biography` TEXT 
 );
